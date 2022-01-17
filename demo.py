@@ -17,3 +17,4 @@ def divide(a, b):
 def compound_method(a, b):
     if a > b:
         return add(a, b) + multiply(a, b)
+    return add(a, b) * multiply(a, b)
