@@ -12,3 +12,8 @@ def multiply(a, b):
 
 def divide(a, b):
     return a / b
+
+
+def compound_method(a, b):
+    if a > b:
+        return add(a, b) + multiply(a, b)
