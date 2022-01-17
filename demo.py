@@ -11,4 +11,6 @@ def multiply(a, b):
 
 
 def compound_method(a, b):
-    return add(a, b) + multiply(a, b)
+    if a > b:
+        return add(a, b) + multiply(a, b)
+    return add(a, b) * multiply(a, b)
